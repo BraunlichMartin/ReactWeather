@@ -18,9 +18,9 @@ class App extends Component {
     };
     
     this.url = "http://api.openweathermap.org/data/2.5/forecast?zip=";
-    this.apikey = "&units=imperial&appid=e9172124c6178b2d350f6385777db45c";
+    this.apikey = 
     //my google api key
-    this.googleApiKey = "AIzaSyAsmbWuvBtW08mB7uX9yqebfpEEpAAn8DY";
+    this.googleApiKey = 
     this.googleMapsUrl = "https://maps.googleapis.com/maps/api/timezone/json?location=";
 
     this.onFormSubmit = this.onFormSubmit.bind(this);
